@@ -1,0 +1,30 @@
+[
+  {
+    "name": "replit",
+    "type": "JavaScript repl",
+    "url": "https://replit.com/@tannerabread",
+    "description": "Online sandbox for small JavaScript functions, mostly assignments from freeCodeCamp",
+    "technologies": ["JavaScript"]
+  },
+  {
+    "name": "glitch",
+    "type": "",
+    "url": "https://glitch.com/@TanneraBread",
+    "description": "MIGHT NOT INCLUDE THIS",
+    "technologies": [""]
+  },
+  {
+    "name": "codepen",
+    "type": "Front End sandbox",
+    "url": "https://codepen.io/bannon-tanner",
+    "description": "Collection of front end work in a constantly updated sandbox environment",
+    "technologies": ["HTML", "CSS", "JavaScript"]
+  },
+  {
+    "name": "codesandbox",
+    "type": "Full Stack sandbox",
+    "url": "https://codesandbox.io/u/bannon-tanner",
+    "description": "Collection of full project work in a sandbox environment",
+    "technologies": ["HTML", "CSS", "JavaScript", "React"]
+  }
+]

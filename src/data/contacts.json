@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Email",
+    "link": "mailto:bannon.n.tanner@gmail.com",
+    "linkText": "bannon.n.tanner@gmail.com"
+  },
+  {
+    "name": "Website",
+    "link": "https://bannontanner.dev",
+    "linkText": "bannontanner.dev"
+  },
+  {
+    "name": "Github",
+    "link": "https://github.com/tannerabread",
+    "linkText": "github.com/tannerabread"
+  },
+  {
+    "name": "Twitter",
+    "link": "https://twitter.com/TanneraBread",
+    "linkText": "@TanneraBread"
+  },
+  {
+    "name": "LinkedIn",
+    "link": "https://www.linkedin.com/in/bannon-tanner/",
+    "linkText": "linkedin.com/in/bannon-tanner"
+  }
+]
