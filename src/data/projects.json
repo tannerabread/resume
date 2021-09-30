@@ -1,0 +1,14 @@
+[
+  {
+    "name": "BeBe Video Productions",
+    "url": "http://bebevideoproductions.com/",
+    "description": "Website built for local videographer",
+    "technologies": ["Ruby on Rails", "JavaScript", "HTML5", "Bootstrap"]
+  },
+  {
+    "name": "International Space Station Tracker",
+    "url": "https://legendary-octo-umbrella.marijunjnja.vercel.app/",
+    "description": "Takes your position and returns (Long/Lat) distance you are from ISS along with other stats",
+    "technologies": ["React", "Styled-Components", "JavaScript"]
+  }
+]
