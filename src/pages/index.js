@@ -21,48 +21,31 @@ export default function Home() {
         <Contacts contacts={contacts} />
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
+          <a href="/about" className={styles.card}>
+            <h2>About Me &rarr;</h2>
+            <p>Find in-depth information about myself and my interests.</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Learn &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+          <a href="/projects" className={styles.card}>
+            <h2>Projects &rarr;</h2>
+            <p>Take a peak at some of my old/new side projects available on the web!</p>
           </a>
 
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
+          <a href="/examples" className={styles.card}>
             <h2>Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+            <p>Examples of more basic concepts dealing with web dev.</p>
           </a>
 
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h2>Deploy &rarr;</h2>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
+          <a href="/blog" className={styles.card}>
+            <h2>Blog &rarr;</h2>
+            <p>Check out my blog!</p>
           </a>
         </div>
-      </main>
 
-      {/* <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a>
-      </footer> */}
+        <div className="resume">
+          <p>resume stuff will go here</p>
+        </div>
+      </main>
     </div>
   )
 }
