@@ -1,3 +1,4 @@
+import React from 'react'
 import Layout from '../../components/Layout'
 import projects from '../../data/projects.json'
 import styles from './projects.module.scss'
