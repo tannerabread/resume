@@ -1,0 +1,17 @@
+.List {
+  list-style-type: none;
+  padding: 20px;
+
+  li a {
+    color: #0066CC;
+    font-weight: bold;
+
+    &:visited {
+      color: #CC33CC;
+    }
+
+    &:active, &:hover {
+      color: #336666;
+    }
+  }
+}
