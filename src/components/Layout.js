@@ -1,9 +1,22 @@
 import React from 'react'
+import Container from './Container'
+import styled from 'styled-components'
+
+const Main = styled.main`
+  padding: 5rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+`
 
 const Layout = ({ children }) => {
   return (
     <>
-      <main>{children}</main>
+      <Container>
+        <Main>{children}</Main>
+      </Container>
     </>
   )
 }
