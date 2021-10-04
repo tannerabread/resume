@@ -1,10 +1,10 @@
-import { styles } from './'
+import styles from './Grid.module.css'
 
-const Grid = props => {
+const Grid = (props) => {
   return (
     <>
       <div className={styles.grid}>
-
+        {props.children}
       </div>
     </>
   )
