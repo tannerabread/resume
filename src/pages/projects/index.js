@@ -13,13 +13,12 @@ const Projects = (pageProps) => {
               {project.name}
             </a>
             <p><strong>Description: </strong>{project.description}</p>
-            <p><strong>Technologies:</strong>
-              <ul className={styles.List}>
+            <p><strong>Technologies:</strong></p>
+              <ul className={styles.TechnologyList}>
                 {project.technologies.map((technology, j) => (
                   <li key={j}>{technology}</li>
                 ))}
               </ul>
-            </p>
           </li>
         ))}
       </ul>

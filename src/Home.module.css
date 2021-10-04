@@ -1,4 +1,4 @@
-.container {
+/* .container {
   min-height: 100vh;
   padding: 0 0.5rem;
   display: flex;
@@ -6,7 +6,7 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-}
+} */
 
 .main {
   padding: 5rem 0;
@@ -90,7 +90,7 @@
   width: 45%;
 } */
 
-.card:hover,
+/* .card:hover,
 .card:focus,
 .card:active {
   color: #0070f3;
@@ -106,7 +106,7 @@
   margin: 0;
   font-size: 1.25rem;
   line-height: 1.5;
-}
+} */
 
 .logo {
   height: 1em;

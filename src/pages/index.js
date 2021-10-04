@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import styles from '../Home.module.css'
 
+import Container from '../components/Container'
+
 import Contacts from '../components/Contacts'
 import contacts from '../data/contacts.json'
 
@@ -12,7 +14,7 @@ import homegrid from '../data/homegrid.json'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <Container>
       <Head>
         <title>Bannon Tanner Resume</title>
       </Head>
@@ -32,6 +34,6 @@ export default function Home() {
           <p>resume stuff will go here</p>
         </div>
       </main>
-    </div>
+    </Container>
   )
 }

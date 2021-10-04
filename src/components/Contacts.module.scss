@@ -1,0 +1,18 @@
+.contactList {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.contactLink {
+  color: darkgray;
+
+  &:hover,
+  &:focus,
+  &:active {
+    color: #0070f3;
+  }
+
+  &:visited {
+    color: purple;
+  }
+}
