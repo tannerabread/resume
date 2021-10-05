@@ -12,12 +12,22 @@ const Projects = (pageProps) => {
         subheading="Click here for code for this page"
         href="https://github.com/tannerabread/resume/blob/main/src/pages/projects/index.js"
       />
+
       <ul className={styles.List}>
         {projects.map((project, i) => (
           <li key={i}>
-            <a href={project.url} target="_blank" rel="noreferrer">
+            <a href={project.url} target="_blank" rel="noreferrer" className={styles.ProjectList}>
               {project.name}
             </a>
+            {project.code ?
+              <>
+                <br />
+                <a href={project.code} target="_blank" rel="noreferrer" className={styles.CodeLink}>
+                  Click here to view code for this project
+                </a>
+              </>
+              : ""
+            }
             <p><strong>Description: </strong>{project.description}</p>
             <p><strong>Technologies:</strong></p>
               <ul className={styles.TechnologyList}>
