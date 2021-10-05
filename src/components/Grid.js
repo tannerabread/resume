@@ -1,4 +1,4 @@
-import styles from './Grid.module.css'
+import styles from './Grid.module.scss'
 
 const Grid = (props) => {
   return (
