@@ -2,18 +2,18 @@ import Layout from '../../../components/Layout'
 import Title from '../../../components/Title'
 import Examples from '../../../components/Examples'
 
-const Html = (props) => {
+const Apis = (props) => {
   return (
     <Layout>
       <Title
-        heading="HTML Examples"
+        heading="External API Examples"
         subheading="Click here for code for this page"
-        href="https://github.com/tannerabread/resume/blob/main/src/pages/examples/html/index.js"
+        href="https://github.com/tannerabread/resume/blob/main/src/pages/examples/apis/index.js"
       />
 
-      <Examples filter="HTML" />
+      <Examples filter="External API" />
     </Layout>
   )
 }
 
-export default Html
+export default Apis

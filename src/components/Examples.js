@@ -9,7 +9,7 @@ const Examples = (props) => {
 
   return (
     <>
-      <Grid gridItems={exampleArray} />
+      <Grid gridItems={exampleArray} target="_blank" />
     </>
   )
 }

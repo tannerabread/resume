@@ -1,13 +1,17 @@
 import styles from './Card.module.scss'
 
 const Card = (props) => {
+  let opts = {}
+  opts = props.target 
+    ? {"target": "blank", "rel": "noreferrer"}
+    : {}
 
   return (
-    <a className={styles.card} href={props.href}>
-      <h2>{props.heading}</h2>
-      <p>{props.info}</p>
+    <a className={styles.card} href={props.href} {...opts}>
+      <h2>{props.heading} →</h2>
+      <p className={styles.info}>{props.info}</p>
       {props.technologies 
-        ? <p>{props.technologies.join(` · `)}</p>
+        ? <p className={styles.technologies}>{props.technologies.join(` · `)}</p>
         : ''
       }
     </a>

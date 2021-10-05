@@ -2,7 +2,7 @@ import Layout from '../../../components/Layout'
 import Title from '../../../components/Title'
 import Examples from '../../../components/Examples'
 
-const JavaScript = (pageProps) => {
+const JavaScript = (props) => {
   return (
     <Layout>
       <Title
