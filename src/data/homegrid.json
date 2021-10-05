@@ -1,22 +1,22 @@
 [
   {
     "heading": "About Me",
-    "href": "/about",
+    "url": "/about",
     "info": "Find in-depth information about myself and my interests."
   },
   {
     "heading": "Projects",
-    "href": "/projects",
+    "url": "/projects",
     "info": "Take a peak at some of my old/new side projects available on the web!"
   },
   {
     "heading": "Examples",
-    "href": "/examples",
+    "url": "/examples",
     "info": "Examples of more basic concepts dealing with web dev."
   },
   {
     "heading": "Blog",
-    "href": "/blog",
+    "url": "/blog",
     "info": "Check out my blog!"
   }
 ]

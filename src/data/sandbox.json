@@ -1,30 +1,62 @@
 [
   {
-    "name": "replit",
-    "type": "JavaScript repl",
-    "url": "https://replit.com/@tannerabread",
-    "description": "Online sandbox for small JavaScript functions, mostly assignments from freeCodeCamp",
-    "technologies": ["JavaScript"]
+    "heading": "React ToDo App",
+    "url": "https://codepen.io/bannon-tanner/full/zmvOQX",
+    "info": "Simple react ToDo app with not much styling",
+    "technologies": ["JavaScript", "React"]
   },
   {
-    "name": "glitch",
-    "type": "",
-    "url": "https://glitch.com/@TanneraBread",
-    "description": "MIGHT NOT INCLUDE THIS",
-    "technologies": [""]
+    "heading": "Flowing Image",
+    "url": "https://codepen.io/bannon-tanner/full/yLNerjP",
+    "info": "Copied project from someone else",
+    "technologies": ["CSS", "JavaScript"]
   },
   {
-    "name": "codepen",
-    "type": "Front End sandbox",
-    "url": "https://codepen.io/bannon-tanner",
-    "description": "Collection of front end work in a constantly updated sandbox environment",
-    "technologies": ["HTML", "CSS", "JavaScript"]
+    "heading": "Old Portfolio",
+    "url": "https://codepen.io/bannon-tanner/full/PdJQgy",
+    "info": "Old Portfolio created using SCSS and jQuery",
+    "technologies": ["HTML", "CSS", "SCSS", "JavaScript", "jQuery", "RegEx"]
   },
   {
-    "name": "codesandbox",
-    "type": "Full Stack sandbox",
-    "url": "https://codesandbox.io/u/bannon-tanner",
-    "description": "Collection of full project work in a sandbox environment",
-    "technologies": ["HTML", "CSS", "JavaScript", "React"]
+    "heading": "D3",
+    "url": "https://codepen.io/bannon-tanner/pen/MqEjRZ",
+    "info": "D3.js sandbox",
+    "technologies": ["CSS", "JavaScript", "D3.js"]
+  },
+  {
+    "heading": "Wikipedia API Search",
+    "url": "https://codepen.io/bannon-tanner/full/XPaMZw",
+    "info": "External API Search utilizing Wikipedia",
+    "technologies": ["HTML", "CSS", "JavaScript", "jQuery", "External API"]
+  },
+  {
+    "heading": "Weather App",
+    "url": "https://codepen.io/bannon-tanner/pen/WgoNdP",
+    "info": "Weather app showing weather at your current location",
+    "technologies": ["HTML", "CSS", "SCSS", "Geolocation", "JavaScript", "Bootstrap"]
+  },
+  {
+    "heading": "Technical Documentation Page",
+    "url": "https://codepen.io/bannon-tanner/pen/GBYpBd",
+    "info": "Technical Documentation Page built in order to pass certain tests by freecodecamp",
+    "technologies": ["HTML", "Bootstrap", "CSS"]
+  },
+  {
+    "heading": "Survey Form",
+    "url": "https://codepen.io/bannon-tanner/pen/rrZmLq",
+    "info": "Survey Form built to pass tests by freecodecamp",
+    "technologies": ["HTML", "CSS", "Forms"]
+  },
+  {
+    "heading": "Rainbow Etch-a-Sketch",
+    "url": "https://codepen.io/bannon-tanner/full/yvVoEz",
+    "info": "in-browser Etch-a-Sketch built with jQuery",
+    "technologies": ["CSS", "JavaScript", "jQuery"]
+  },
+  {
+    "heading": "Site Re-Creation",
+    "url": "https://codepen.io/bannon-tanner/pen/aVLopY",
+    "info": "Re-created website focusing on clean design",
+    "technologies": ["HTML", "Pug", "CSS", "PostCSS"]
   }
 ]

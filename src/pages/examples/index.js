@@ -1,4 +1,5 @@
 import Layout from '../../components/Layout'
+import Title from '../../components/Title'
 import fs from 'fs'
 import path from 'path'
 
@@ -33,16 +34,23 @@ export async function getStaticProps() {
   }
 }
 
-const Examples = ({ paths }) => {
+const ExamplePage = ({ paths }) => {
   console.log(paths)
   return (
     <Layout>
-      <h1>Example stuff here</h1>
+      <Title 
+        heading="Examples"
+        subheading="Click here for code for this page"
+        href="https://github.com/tannerabread/resume/blob/main/src/pages/examples/index.js"
+      />
+
       <ul>
         {paths.map((path, i) => (
           <li key={i}>
             <a href={path.replace("./src/pages", "").replace("/index.js", "")}>
-              {path.replace("./src/pages/examples/", "").replace("/index.js", "")}
+              {path.endsWith('/index.js')
+              ? path.replace("./src/pages/examples/", "").replace("/index.js", "").toUpperCase()
+              : path.replace("./src/pages/examples/", "").replace(".js", "").toUpperCase()}
             </a>
           </li>
         ))}
@@ -51,4 +59,4 @@ const Examples = ({ paths }) => {
   )
 }
 
-export default Examples
+export default ExamplePage

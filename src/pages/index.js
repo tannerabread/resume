@@ -6,7 +6,6 @@ import Title from '../components/Title'
 import Contacts from '../components/Contacts'
 import contacts from '../data/contacts.json'
 import Grid from '../components/Grid'
-import HomeGrid from '../components/HomeGrid'
 import homegrid from '../data/homegrid.json'
 
 export default function Home() {
@@ -25,9 +24,7 @@ export default function Home() {
 
         <Contacts contacts={contacts} />
 
-        <Grid>
-          <HomeGrid gridItems={homegrid} />
-        </Grid>
+        <Grid gridItems={homegrid} />
 
         <div className="resume">
           <p>resume stuff will go here</p>
