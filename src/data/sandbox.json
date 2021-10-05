@@ -58,5 +58,35 @@
     "url": "https://codepen.io/bannon-tanner/pen/aVLopY",
     "info": "Re-created website focusing on clean design",
     "technologies": ["HTML", "Pug", "CSS", "PostCSS"]
+  },
+  {
+    "heading": "Table Example",
+    "url": "https://codepen.io/bannon-tanner/pen/ooewNN",
+    "info": "Table set up to look nice without using any front-end frameworks",
+    "technologies": ["HTML", "Pug", "CSS", "PostCSS"]
+  },
+  {
+    "heading": "Movie List",
+    "url": "https://codepen.io/bannon-tanner/pen/jaOvpa",
+    "info": "Styled list of movies that link to imdb page for each",
+    "technologies": ["HTML", "Pug", "CSS", "JavaScript"]
+  },
+  {
+    "heading": "Random Quote Generator",
+    "url": "https://codepen.io/bannon-tanner/pen/LzMRjM",
+    "info": "Outputs a random quote from wikipedia API",
+    "technologies": ["HTML", "Pug", "CSS", "JavaScript", "External API", "jQuery", "Materialize"]
+  },
+  {
+    "heading": "Trippy Circles",
+    "url": "https://codepen.io/marijunjnja/pen/MWwwMyb",
+    "info": "Fun example playing around with JavaScript and alternating classes to make different color circles/inner circles",
+    "technologies": ["CSS", "JavaScript", "Ternary Operator"]
+  },
+  {
+    "heading": "Image Direction",
+    "url": "https://codepen.io/marijunjnja/pen/xxGddwE",
+    "info": "CodePen playing around with image direction and borders",
+    "technologies": ["CSS", "Image Direction", "Radial-Gradient"]
   }
 ]
