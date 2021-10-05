@@ -1,7 +1,7 @@
 import styles from './Card.module.scss'
 
 const Card = (props) => {
-  console.log(props)
+
   return (
     <a className={styles.card} href={props.href}>
       <h2>{props.heading}</h2>
