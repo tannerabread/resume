@@ -1,4 +1,16 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Welcome
+
+This is a ***[personal portfolio](tannerabread.com)*** (incorrectly named resume in github before deciding to add most of my work) created with [Next.js](https://nextjs.org/ "one of the fastest tools to get started with a react project")
+
+## Features
+
+###### SRC Directory
+
+To help keep the project better organized, it utilizes the [`/src` directory](https://nextjs.org/docs/advanced-features/src-directory) advanced feature of Next.js 
+
+###### React Components
+
+Most pages are split up into React components contained in the src directory for scalability.
 
 ## Getting Started
 
@@ -26,9 +38,3 @@ To learn more about Next.js, take a look at the following resources:
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
