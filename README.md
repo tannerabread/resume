@@ -32,6 +32,9 @@ The structure of the `/src` folder is as follows
     |   |---about
     |   |   |---index.js
     |   |---blog
+    |   |   |---[id]
+    |   |   |   |---index.js
+    |   |   |---[id].js
     |   |   |---index.js
     |   |---examples
     |   |   |---apis
@@ -55,11 +58,23 @@ The structure of the `/src` folder is as follows
 
 ###### CSS Modules + SCSS
 
-###### React Components
+[CSS Modules](https://github.com/css-modules/css-modules) are great for separating styling into separate files. Mixed with [SCSS](https://sass-lang.com/), it can save lots of rewriting of the same rules or selectors to accomplish the same goals.
 
-Most pages are split up into React components contained in the src directory for scalability.
+###### React Components + Styled-Components
 
-###### Amazon AWS DynamoDB
+Most pages are split up into [React](https://reactjs.org/) components contained in the src directory for scalability.
+
+Some pages use *[Styled-Components](https://styled-components.com/ "great for pages that just need a little bit of styling")*
+
+##### Amazon AWS DynamoDB
+
+[DynamoDB](https://aws.amazon.com/dynamodb/?trk=ps_a134p000004f2afAAA&trkCampaign=acq_paid_search_brand&sc_channel=PS&sc_campaign=acquisition_US&sc_publisher=Google&sc_category=Database&sc_country=US&sc_geo=NAMER&sc_outcome=acq&sc_detail=dynamodb&sc_content=DynamoDB_e&sc_matchtype=e&sc_segment=536393513269&sc_medium=ACQ-P|PS-GO|Brand|Desktop|SU|Database|DynamoDB|US|EN|Text&s_kwcid=AL!4422!3!536393513269!e!!g!!dynamodb&ef_id=CjwKCAjwkvWKBhB4EiwA-GHjFs46y8n2fBfCbKh6pdPMJkx49G0vVd6afIvE0rgoKf1pC_t9kfzT5hoCkBkQAvD_BwE:G:s&s_kwcid=AL!4422!3!536393513269!e!!g!!dynamodb)
+is a fast, flexible NoSQL database service for single-digit millisecond performance at any scale.
+It was chosen for this project for the blog section
+
+###### NextJS Dynamic Routing
+
+
 
 ## Getting Started
 
