@@ -12,45 +12,45 @@ The structure of the `/src` folder is as follows
 ```
     src
     |---components
-    |   |   Card.js
-    |   |   Card.module.scss
-    |   |   Contacts.js
-    |   |   Contacts.modules.scss
-    |   |   Container.js   (*uses styled-components*)
-    |   |   Examples.js
-    |   |   Grid.js
-    |   |   Grid.module.scss
-    |   |   Layout.js      (*uses styled-components*)
-    |   |   Title.js       (*uses styled-components*)
+    |   |---Card.js
+    |   |---Card.module.scss
+    |   |---Contacts.js
+    |   |---Contacts.modules.scss
+    |   |---Container.js   (*uses styled-components*)
+    |   |---Examples.js
+    |   |---Grid.js
+    |   |---Grid.module.scss
+    |   |---Layout.js      (*uses styled-components*)
+    |   |---Title.js       (*uses styled-components*)
     |---data
-    |   |   contacts.json
-    |   |   homegrid.json
-    |   |   projects.json
-    |   |   sandbox.json
+    |   |---contacts.json
+    |   |---homegrid.json
+    |   |---projects.json
+    |   |---sandbox.json
     |---helpers
     |---pages
     |   |---about
-    |   |   |   index.js
+    |   |   |---index.js
     |   |---blog
-    |   |   |   index.js
+    |   |   |---index.js
     |   |---examples
     |   |   |---apis
-    |   |   |   |   index.js
+    |   |   |   |---index.js
     |   |   |---css
-    |   |   |   |   index.js
+    |   |   |   |---index.js
     |   |   |---html
-    |   |   |   |   index.js
+    |   |   |   |---index.js
     |   |   |---javascript
-    |   |   |   |   index.js
+    |   |   |   |---index.js
     |   |   |---react
-    |   |   |   |   index.js
-    |   |   |   index.js
+    |   |   |   |---index.js
+    |   |   |---index.js
     |   |---projects
-    |   |   |   index.js
-    |   |   |   projects.module.scss
-    |   |   _app.js
-    |   |   _document.js
-    |   |   index.js
+    |   |   |---index.js
+    |   |   |---projects.module.scss
+    |   |---_app.js
+    |   |---_document.js
+    |   |---index.js
 ```
 
 ###### CSS Modules + SCSS
@@ -58,6 +58,8 @@ The structure of the `/src` folder is as follows
 ###### React Components
 
 Most pages are split up into React components contained in the src directory for scalability.
+
+###### Amazon AWS DynamoDB
 
 ## Getting Started
 
