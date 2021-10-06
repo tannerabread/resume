@@ -1,17 +1,15 @@
+import useSWR from 'swr'
 import Layout from '../../components/Layout'
 import Title from '../../components/Title'
 
-const Blog = (pageProps) => {
-  return (
-    <Layout>
-      <Title 
-        heading="Blog"
-        subheading="Click here for code for this page"
-        href="https://github.com/tannerabread/resume/blob/main/src/pages/blog/index.js"
-      />
-      <h1>Blog stuff here</h1>
-    </Layout>
-  )
+const fetcher = (url) => fetch(url).then((res) => res.json())
+
+const Blog = ({ id }) => {
+  const { data, error } = useSWR(`/blog/${id}`, fetcher)
+
+  if (error) return "An error has occured"
+  if (!data) return "Loading..."
+  return <code>{JSON.stringify(data, null, 2)}</code>
 }
 
 export default Blog
