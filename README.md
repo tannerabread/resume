@@ -6,7 +6,54 @@ This is a ***[personal portfolio](tannerabread.com)*** (incorrectly named resume
 
 ###### SRC Directory
 
-To help keep the project better organized, it utilizes the [`/src` directory](https://nextjs.org/docs/advanced-features/src-directory) advanced feature of Next.js 
+To help keep the project better organized, it utilizes the [`/src` directory](https://nextjs.org/docs/advanced-features/src-directory) advanced feature of Next.js<br>
+
+The structure of the `/src` folder is as follows
+```
+    src
+    |---components
+    |   |   Card.js
+    |   |   Card.module.scss
+    |   |   Contacts.js
+    |   |   Contacts.modules.scss
+    |   |   Container.js   (*uses styled-components*)
+    |   |   Examples.js
+    |   |   Grid.js
+    |   |   Grid.module.scss
+    |   |   Layout.js      (*uses styled-components*)
+    |   |   Title.js       (*uses styled-components*)
+    |---data
+    |   |   contacts.json
+    |   |   homegrid.json
+    |   |   projects.json
+    |   |   sandbox.json
+    |---helpers
+    |---pages
+    |   |---about
+    |   |   |   index.js
+    |   |---blog
+    |   |   |   index.js
+    |   |---examples
+    |   |   |---apis
+    |   |   |   |   index.js
+    |   |   |---css
+    |   |   |   |   index.js
+    |   |   |---html
+    |   |   |   |   index.js
+    |   |   |---javascript
+    |   |   |   |   index.js
+    |   |   |---react
+    |   |   |   |   index.js
+    |   |   |   index.js
+    |   |---projects
+    |   |   |   index.js
+    |   |   |   projects.module.scss
+    |   |   _app.js
+    |   |   _document.js
+    |   |   index.js
+```
+
+###### CSS Modules + SCSS
 
 ###### React Components
 
