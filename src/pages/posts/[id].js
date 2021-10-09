@@ -1,12 +1,12 @@
 import Image from 'next/image'
 import Title from '../../components/Title'
+import Container from '../../components/Container'
 
 const Post = ({ post }) => {
-  console.log("post", post)
   if (!post) return <div>loading...</div>
 
   return (
-    <>
+    <Container>
       <Title heading={post.postId} />
       <h5>{post.date}</h5>
       {post.sections.map((section, i) => {
@@ -26,7 +26,7 @@ const Post = ({ post }) => {
           </div>
         )
       })}
-    </>
+    </Container>
   )
 }
 
