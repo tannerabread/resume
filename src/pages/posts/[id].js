@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Title from '../../components/Title'
 import Container from '../../components/Container'
-import { server } from '../../config'
+import server from '../../config'
 
 const Post = ({ post }) => {
   if (!post) return <div>loading...</div>

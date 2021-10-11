@@ -1,7 +1,7 @@
 import Layout from '../../components/Layout'
 import Title from '../../components/Title'
 import Grid from '../../components/Grid'
-import { server } from '../../config'
+import server from '../../config'
 
 const Posts = ({ posts }) => {
   posts.map((post, i) => (
