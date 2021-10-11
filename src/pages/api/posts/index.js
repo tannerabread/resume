@@ -24,3 +24,9 @@ export default async function handler(req, res) {
     return
   }
 }
+
+export const config = {
+  api: {
+    externalResolver: true,
+  }
+}
