@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import Title from '../../components/Title'
 import Container from '../../components/Container'
+import { server } from '../../config'
 
 const Post = ({ post }) => {
   if (!post) return <div>loading...</div>
@@ -32,10 +33,9 @@ const Post = ({ post }) => {
 
 export default Post
 
-const url = process.env.NODE_ENV !== 'production' ? 'http://localhost:3000' : process.env.SERVER
 
 export async function getStaticPaths() {
-  const res = await fetch(`${url}/api/posts`)
+  const res = await fetch(`${server}/api/posts`)
   const posts = await res.json()
 
   const paths = posts.map((post) => ({
@@ -46,7 +46,7 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-  const res = await fetch(`${url}/api/posts/${params.id}`)
+  const res = await fetch(`${server}/api/posts/${params.id}`)
   const post = await res.json()
 
   return { props: { post } }

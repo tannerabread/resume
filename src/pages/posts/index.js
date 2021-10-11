@@ -1,10 +1,11 @@
 import Layout from '../../components/Layout'
 import Title from '../../components/Title'
 import Grid from '../../components/Grid'
+import { server } from '../../config'
 
 const Posts = ({ posts }) => {
   posts.map((post, i) => (
-    post.url = `posts/${post.postId}`,
+    post.url = `/posts/${post.postId}`,
     post.heading = post.postId
   ))
 
@@ -22,10 +23,9 @@ const Posts = ({ posts }) => {
 
 export default Posts
 
-const url = process.env.NODE_ENV !== 'production' ? 'http://localhost:3000' : process.env.SERVER
 
 export async function getStaticProps() {
-  const res = await fetch(`${url}/api/posts`)
+  const res = await fetch(`${server}/api/posts`)
   const posts = await res.json()
 
   return {
