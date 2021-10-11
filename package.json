@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@babel/core": "^7.15.8",
     "aws-sdk": "^2.1001.0",
     "babel-core": "^6.26.3",
     "next": "11.1.2",
