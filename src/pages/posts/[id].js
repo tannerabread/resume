@@ -1,14 +1,14 @@
-import Image from 'next/image'
-import Title from '../../components/Title'
+// import Image from 'next/image'
+// import Title from '../../components/Title'
 import Container from '../../components/Container'
-import server from '../../config'
+// import server from '../../config'
 
 const Post = ({ post }) => {
-  if (!post) return <div>loading...</div>
+//   if (!post) return <div>loading...</div>
 
   return (
     <Container>
-      <Title heading={post.postId} />
+      {/* <Title heading={post.postId} />
       <h5>{post.date}</h5>
       {post.sections.map((section, i) => {
         return (
@@ -26,7 +26,7 @@ const Post = ({ post }) => {
             }
           </div>
         )
-      })}
+      })} */}
     </Container>
   )
 }
@@ -34,20 +34,20 @@ const Post = ({ post }) => {
 export default Post
 
 
-export async function getStaticPaths() {
-  const res = await fetch(`${server}/api/posts`)
-  const posts = await res.json()
+// export async function getStaticPaths() {
+//   const res = await fetch(`${server}/api/posts`)
+//   const posts = await res.json()
 
-  const paths = posts.map((post) => ({
-    params: { id: post.postId }
-  }))
+//   const paths = posts.map((post) => ({
+//     params: { id: post.postId }
+//   }))
 
-  return { paths, fallback: false }
-}
+//   return { paths, fallback: false }
+// }
 
-export async function getStaticProps({ params }) {
-  const res = await fetch(`${server}/api/posts/${params.id}`)
-  const post = await res.json()
+// export async function getStaticProps({ params }) {
+//   const res = await fetch(`${server}/api/posts/${params.id}`)
+//   const post = await res.json()
 
-  return { props: { post } }
-}
+//   return { props: { post } }
+// }

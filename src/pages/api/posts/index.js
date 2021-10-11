@@ -1,6 +1,7 @@
 import db from '../../../../db'
 
 export default async function handler(req, res) {
+
   if (req.method === 'GET') {
     // get for main posts page
     // so get all posts (can use scan or no key in query)
