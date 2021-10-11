@@ -3,6 +3,7 @@ import Card from './Card'
 import Link from 'next/link'
 
 const Grid = (props) => {
+
   return (
     <>
       <div className={styles.grid}>

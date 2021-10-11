@@ -21,6 +21,8 @@ The structure of the `/src` folder is as follows
     |   |---Grid.js
     |   |---Grid.module.scss
     |   |---Layout.js      (*uses styled-components*)
+    |   |---Navbar.js
+    |   |---Navbar.module.scss
     |   |---Title.js       (*uses styled-components*)
     |---data
     |   |---contacts.json
@@ -31,11 +33,10 @@ The structure of the `/src` folder is as follows
     |---pages
     |   |---about
     |   |   |---index.js
-    |   |---blog
-    |   |   |---[id]
+    |   |---api
+    |   |   |---posts
+    |   |   |   |---[id].js
     |   |   |   |---index.js
-    |   |   |---[id].js
-    |   |   |---index.js
     |   |---examples
     |   |   |---apis
     |   |   |   |---index.js
@@ -47,6 +48,9 @@ The structure of the `/src` folder is as follows
     |   |   |   |---index.js
     |   |   |---react
     |   |   |   |---index.js
+    |   |   |---index.js
+    |   |---posts
+    |   |   |---[id].js
     |   |   |---index.js
     |   |---projects
     |   |   |---index.js
