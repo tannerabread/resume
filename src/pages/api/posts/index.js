@@ -16,8 +16,7 @@ export default async function handler(req, res) {
         data.Items.forEach(function(post) {
           console.log("api post",post)
         })
-        console.log("res.body", res.body)
-        res.json(data.Items)
+        res.status(200).json(data.Items)
       }
     })
   } else {
