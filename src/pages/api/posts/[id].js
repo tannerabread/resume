@@ -16,5 +16,7 @@ export default async function handler(req, res) {
         res.json(data.Item)
       }
     })
+  } else {
+    res.status(400).send({ message: "only GET requests allowed" })
   }
 }

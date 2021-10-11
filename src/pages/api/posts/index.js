@@ -16,8 +16,12 @@ export default async function handler(req, res) {
         data.Items.forEach(function(post) {
           console.log("api post",post)
         })
+        console.log("res.body", res.body)
         res.json(data.Items)
       }
     })
+  } else {
+    res.status(400).send({ message: "Only GET requests allowed" })
+    return
   }
 }
