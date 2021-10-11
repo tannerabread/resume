@@ -19,6 +19,10 @@
   h2 {
     margin: 0 0 1rem 0;
     font-size: 1.5rem;
+
+    @media (max-width: 768px) {
+      font-size: 1.25rem;
+    }
   }
 }
 
@@ -26,9 +30,19 @@
   margin: 0;
   font-size: 1.25rem;
   line-height: 1.5;
+
+  @media (max-width: 768px) {
+    font-size: 1rem;
+  }
 }
 
 .technologies {
   font-style: italic;
   font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 80%;
+  }
 }

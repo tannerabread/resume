@@ -1,4 +1,4 @@
-import Container from '../../components/Container'
+import Layout from '../../components/Layout'
 import Title from '../../components/Title'
 import Grid from '../../components/Grid'
 
@@ -9,14 +9,14 @@ const Posts = ({ posts }) => {
   ))
 
   return (
-    <Container>
+    <Layout>
       <Title
         heading="All Blog Posts"
         subheading="Click here for code for this page"
         href="https://github.com/tannerabread/resume/blob/main/src/pages/posts/index.js"
       />
       <Grid gridItems={posts} />
-    </Container>
+    </Layout>
   )
 }
 

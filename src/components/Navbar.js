@@ -1,30 +1,37 @@
+import { useState } from 'react'
 import Link from 'next/link'
 import styles from './Navbar.module.scss'
 
 
 const Navbar = () => {
+  const [isActive, setActive] = useState("false")
+
+  const handleToggle = () => {
+    setActive(!isActive)
+  }
 
   return (
     <>
-      <nav className={styles.navbar}>
+      <nav className={isActive ? `${styles.navbar}` : `${styles.navbar} ${styles.responsive}`}>
         <div className={styles.logocontainer}>
           <Link href='/'>
-            <a>Home</a>
+            <a onClick={handleToggle}>Home</a>
           </Link>
         </div>
-        <div className={styles.linkscontainer}>
+        <div className={isActive ? `${styles.linkscontainer}` : `${styles.linkscontainer} ${styles.responsive}`}>
           <Link href='/about'>
-            <a className={styles.navlinks}>About</a>
+            <a className={styles.navlinks} onClick={handleToggle}>About</a>
           </Link>
           <Link href='/examples'>
-            <a className={styles.navlinks}>Examples</a>
+            <a className={styles.navlinks} onClick={handleToggle}>Examples</a>
           </Link>
           <Link href='/projects'>
-            <a className={styles.navlinks}>Projects</a>
+            <a className={styles.navlinks} onClick={handleToggle}>Projects</a>
           </Link>
           <Link href='/posts'>
-            <a className={styles.navlinks}>Blog</a>
+            <a className={styles.navlinks} onClick={handleToggle}>Blog</a>
           </Link>
+          <button className={styles.icon} onClick={handleToggle}>☰</button>
         </div>
       </nav>
     </>
