@@ -26,7 +26,7 @@ const StyledSubheading = styled.a`
 const Title = (props) => {
   return (
     <>
-      <StyledHeading>{props.heading}</StyledHeading>
+      <StyledHeading style={props.style}>{props.heading}</StyledHeading>
       <StyledSubheading href={props.href} target="_blank" rel="noreferrer">
         {props.subheading}
       </StyledSubheading>

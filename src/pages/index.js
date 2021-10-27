@@ -17,18 +17,24 @@ export default function Home() {
 
       <Layout>
         <Title 
-          heading="Bannon Tanner" 
+          heading="TanneraBread" 
           subheading="Click here for code for this page" 
           href="https://github.com/tannerabread/resume/blob/main/src/pages/index.js"
+          style={{
+            fontFamily: "'Molle', cursive",
+            fontWeight: "bold",
+            fontStyle: "italic",
+            fontSize: "calc(5px + 10vmin)",
+            WebkitTextFillColor: "white",
+            WebkitTextStrokeWidth: "0.1rem",
+            WebkitTextStrokeColor: "#EFB764"
+          }}
         />
 
         <Contacts contacts={contacts} />
 
         <Grid gridItems={homegrid} />
 
-        <div className="resume">
-          <p>resume stuff will go here</p>
-        </div>
       </Layout>
     </>
   )

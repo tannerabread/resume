@@ -46,7 +46,7 @@ const ExamplePage = ({ paths }) => {
 
       <ul>
         {paths.map((path, i) => (
-          <li key={i}>
+          <li key={i} style={{listStyleType: "none", textDecoration: "underline", color: "yellow"}}>
             <a href={path.replace("./src/pages", "").replace("/index.js", "")}>
               {path.endsWith('/index.js')
               ? path.replace("./src/pages/examples/", "").replace("/index.js", "").toUpperCase()

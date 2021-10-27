@@ -5,10 +5,17 @@
   justify-content: space-between;
   padding: 20px 0px;
   background: linear-gradient(45deg, rgba(0,255,61,1) 0%, rgba(255,0,202,1) 100%);
+  position: relative; /* position relative for box shadow to work */
+  box-shadow: rgba(24, 24, 27, 0.57) 7px 8px 17px -2px;
 
   a {
     color: white;
     font-weight: bold;
+    border: 2px solid rgba(255, 255, 255, 0.4);
+
+    &:hover {
+      box-shadow: rgba(24, 24, 27, 0.30) 2px 2px 6px 1px;
+    }
   }
 }
 
@@ -19,7 +26,6 @@
 
   a {
     text-align: center;
-    border: 2px solid rgba(255, 255, 255, 0.4);
     padding: 10px 15px;
   }
 }
@@ -30,7 +36,6 @@
   align-items: center;
 
   a {
-    border: 2px solid rgba(255, 255, 255, 0.4);
     padding: 10px 15px;
   }
 }

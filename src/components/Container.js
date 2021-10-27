@@ -8,6 +8,7 @@ const StyledContainer = styled.div`
   justify-content: center;
   align-items: center;
   height: auto;
+  background: radial-gradient(#90ACA0, #7b877d);
 `
 
 const Container = (props) => {
