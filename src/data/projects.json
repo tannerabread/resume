@@ -18,5 +18,12 @@
     "code": "https://github.com/tannerabread/giphy_api_search",
     "description": "Giphy Search utilizing the trial developer API",
     "technologies": ["React", "lodash", "JavaScript", "async functions", "External API", "React Router"]
+  },
+  {
+    "name": "Spotify Stats",
+    "url": "https://spotify-phi-sooty.vercel.app/",
+    "code": "https://github.com/tannerabread/spotify",
+    "description": "Experimenting with the Spotify API on my own music account",
+    "technologies": ["NextJS", "React", "JavaScript", "async functions", "External API", "Styled-Components"]
   }
 ]
