@@ -11,5 +11,12 @@
     "code": "https://github.com/tannerabread/isstracker",
     "description": "Takes your position and returns (Long/Lat) distance you are from ISS along with other stats",
     "technologies": ["React", "Styled-Components", "JavaScript", "async functions", "External API"]
+  },
+  {
+    "name": "Giphy Search",
+    "url": "https://giphy-api-search.vercel.app/",
+    "code": "https://github.com/tannerabread/giphy_api_search",
+    "description": "Giphy Search utilizing the trial developer API",
+    "technologies": ["React", "lodash", "JavaScript", "async functions", "External API", "React Router"]
   }
 ]

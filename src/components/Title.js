@@ -3,11 +3,10 @@ import styled from 'styled-components'
 const StyledHeading = styled.h1`
   margin: 0;
   line-height: 1.15;
-  font-size: 3rem;
+  font-size: calc(4px + 10vmin);
   text-align: center;
 
   @media (max-width: 768px) {
-    font-size: 2rem;
     max-width: 80vw;
   }
 `

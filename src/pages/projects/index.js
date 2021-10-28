@@ -11,6 +11,13 @@ const Projects = (pageProps) => {
         heading="Projects"
         subheading="Click here for code for this page"
         href="https://github.com/tannerabread/resume/blob/main/src/pages/projects/index.js"
+        style={{
+          fontFamily: "'Fontdiner Swanky', cursive",
+          filter: "drop-shadow(2px 2px 10px #FFF)",
+          background: "linear-gradient(to right, rgba(0,252,164,1), rgba(138,135,255,1))",
+          WebkitBackgroundClip: "text",
+          WebkitTextFillColor: "transparent"
+        }}
       />
 
       <ul className={styles.List}>
