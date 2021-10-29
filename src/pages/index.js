@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Bannon Tanner Resume</title>
+        <title>TanneraBread Digital Garden</title>
       </Head>
 
       <Layout>
