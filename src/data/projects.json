@@ -3,27 +3,31 @@
     "name": "BeBe Video Productions",
     "url": "http://bebevideoproductions.com/",
     "description": "Website built for local videographer",
-    "technologies": ["Ruby on Rails", "JavaScript", "HTML5", "Bootstrap"]
+    "technologies": ["Ruby on Rails", "JavaScript", "HTML5", "Bootstrap"],
+    "date": 1541076648000
   },
   {
     "name": "International Space Station Tracker",
     "url": "https://isstracker.vercel.app/",
     "code": "https://github.com/tannerabread/isstracker",
     "description": "Takes your position and returns (Long/Lat) distance you are from ISS along with other stats",
-    "technologies": ["React", "Styled-Components", "JavaScript", "async functions", "External API"]
+    "technologies": ["React", "Styled-Components", "JavaScript", "async functions", "External API"],
+    "date": 1572612648000
   },
   {
     "name": "Giphy Search",
     "url": "https://giphy-api-search.vercel.app/",
     "code": "https://github.com/tannerabread/giphy_api_search",
     "description": "Giphy Search utilizing the trial developer API",
-    "technologies": ["React", "lodash", "JavaScript", "async functions", "External API", "React Router"]
+    "technologies": ["React", "lodash", "JavaScript", "async functions", "External API", "React Router"],
+    "date": 1635097848000
   },
   {
     "name": "Spotify Stats",
     "url": "https://spotify-phi-sooty.vercel.app/",
     "code": "https://github.com/tannerabread/spotify",
     "description": "Experimenting with the Spotify API on my own music account",
-    "technologies": ["NextJS", "React", "JavaScript", "async functions", "External API", "Styled-Components"]
+    "technologies": ["NextJS", "React", "JavaScript", "async functions", "External API", "Styled-Components"],
+    "date": 1635544248000
   }
 ]

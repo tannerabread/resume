@@ -5,6 +5,10 @@ import projects from '../../data/projects.json'
 import styles from './projects.module.scss'
 
 const Projects = (pageProps) => {
+  const sortedProjects = projects.sort(function(a, b){
+    return b.date - a.date
+  })
+
   return (
     <Layout>
       <Title
@@ -21,7 +25,7 @@ const Projects = (pageProps) => {
       />
 
       <ul className={styles.List}>
-        {projects.map((project, i) => (
+        {sortedProjects.map((project, i) => (
           <li key={i}>
             <a href={project.url} target="_blank" rel="noreferrer" className={styles.ProjectList}>
               {project.name}
