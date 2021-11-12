@@ -9,7 +9,14 @@ const About = (pageProps) => {
         subheading="Click here for code for this page"
         href="https://github.com/tannerabread/resume/blob/main/src/pages/about/index.js"
       />
-      <p>About me stuff will go here</p>
+      <h1>Bannon Tanner</h1>
+      <h2>Interests:</h2>
+      <ul>
+        <li>CodinGame</li>
+        <li>Drawing Cat NFTs</li>
+        <li>Learning New Technologies</li>
+        <li>DnD</li>
+      </ul>
     </Layout>
   )
 }
