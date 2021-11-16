@@ -9,7 +9,8 @@ export default function handler(req, res) {
 
   if (req.method === 'PUT') {
     // process PUT request
-
-    res.status(200)
+    const body = JSON.parse(req.body)
+    
+    res.status(200).json(body)
   }
 }
