@@ -24,10 +24,12 @@ const Projects = (pageProps) => {
         }}
       />
 
+      {/* when clicking each project, should embed it into the current window and then add a navigation pane on the left side */}
+      
       <ul className={styles.List}>
         {sortedProjects.map((project, i) => (
           <li key={i}>
-            <a href={project.url} target="_blank" rel="noreferrer" className={styles.ProjectList}>
+            <a href={project.url} rel="noreferrer" className={styles.ProjectList}>
               {project.name}
             </a>
             {project.code ?
